@@ -188,9 +188,6 @@
 
 
 
-
-
-
 // let a  =["A","B","C"]
 // let [d,e,f] = a;
 // console.log(f)
@@ -206,7 +203,7 @@
 // }
 
 
-// let {name,lname}= a;
+// let {name,lname} = a;
 
 // console.log(lname)
 // console.log(name)
@@ -240,7 +237,7 @@
 
 //========================= program of percentage using terary operator ===============
 
-/* let name =  +prompt("ENTER YOU PERSENTAGE")
+/*  let name =  +prompt("ENTER YOU PERSENTAGE")
 
 let check= 
 name >= 90 && name <=100 ? "A+"
@@ -253,8 +250,14 @@ name >= 90 && name <=100 ? "A+"
 
     
 :"please Enter correct persentage"
-alert(check)
- */
+alert(check) */
+ 
+
+// var a = 15 ;
+// var z; 
+
+// a > 10 ?  z = "true" :z = "false "
+// console.log(z)
 
 // var age = 11;
 // var a = age <= 10? "equl":"not equl"
@@ -294,10 +297,6 @@ alert(check)
 //  setInterval(function() {
 //       console.log(name1)
 //  }, 1000);
-
-
-
-
 
 
 
@@ -363,6 +362,21 @@ alert(check)
 // }
 // hello2()
 
+
+//  roh = () => {
+//     console.log("HELLO WORLD")
+
+// }
+
+// var a = () => {
+
+// }
+
+
+// a = () => {
+// }
+
+
 // ===========Arrow==function=================
 // var name3 = "rohit";
 // const back =()=>{
@@ -375,7 +389,7 @@ alert(check)
 
 
 // const back =(name3)=>{
-//     console.log(`hello ${name3}`)
+//     console.log(`hello${name3}`)
 // }
 
 
@@ -486,9 +500,11 @@ alert(check)
 
 // let   name =  "mark"
 // let search = "s"
-// if(name.startsWith(search)){
+// if(name.startsWith(search){
 //     console.log(name)
 // } 
+
+
 
 
 // ============================class ======================
@@ -502,6 +518,12 @@ alert(check)
 // const  car = new Car ("corola" , 2020)
 //  console.log(car)
 
+// function Car(car , model) {
+//     this.car = car,
+//   this.model = model
+//   }
+//   var data1 = new Car("rohit", "car")
+//   console.log(data1)					
 // ============================class ======================
 
 
@@ -516,7 +538,7 @@ alert(check)
 //   myCar = new Car("Ford", 2014);
 
 
-
+// console.log(myCar)
 
 // class Car {
 //     constructor(name , model){
@@ -527,6 +549,18 @@ alert(check)
 // }
 // car1 = new Car("corola",2015);
 // console.log(car1)
+
+
+// class Car {
+//     constructor(name , age){
+//     this.name = name ,
+//     this.age =  age
+//     }
+//     }
+    
+//     var car = new Car ("rohit",14)
+//     console.log(car.age)
+
 
 
 //============================= promise====================example====================
@@ -607,3 +641,26 @@ alert(check)
 //       function(error) { /* code if some error */ }
 //     ); 
     
+
+//============================= filter ========================================
+
+
+
+// var ages = [10,12,19,20]
+// document.write(`${ages}  <br>`)
+// var b = ages.filter(check)
+// document.write(`${b}  <br>`)
+
+// function check(age){
+// return age >= 18;
+// }
+
+
+// var sum = [1,2,3,4,5,6,7,8,9,10]
+// console.log(sum) 
+
+// sum.map((v,i)=>{
+// console.log(v+i) 
+// })
+
+
