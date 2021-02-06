@@ -562,7 +562,12 @@ alert(check) */
 //     console.log(car.age)
 
 
+// function Car(name){
+//     this.name = name
+// }
 
+// var car = new Car("rohi")
+// console.log(car)
 //============================= promise====================example====================
 
 // var name1;
@@ -640,7 +645,52 @@ alert(check) */
 //       function(value) { /* code if successful */ },
 //       function(error) { /* code if some error */ }
 //     ); 
+
+
+// ================= Creating and Using A Promise Step by Step
+
+// let promise = new Promise ((resolve ,reject)=>{
+//     let num = 10;
+//     num === 10? resolve("successfully")
+//     :reject("Promise reject")
+
+// })
+
+// promise.then((message) => { 
+//     console.log(message + " then");
+// }).catch((message) => { 
+//     console.log(message + " catch");
+// });
+
+
+// console.log(promise)
+
+
+
+
+// let mypromise = new Promise ((resolve,reject)=>{
+//     var  num = 10;
+//     num === 10  ? resolve ("successfully")
+//     :reject("Failed")
     
+//     })
+    
+//     mypromise.then((message)=>{
+//     console.log(message)
+    
+//     }).catch((message)=>{
+//     console.log(message)
+//     })
+
+// let mypromise = new Promise(function (Resolve, reject){
+//     var a = 10;
+//     a === 1 ? Resolve("ok")
+//     :reject ("Error")
+    
+    
+//     })
+    
+//     console.log(mypromise)
 
 //============================= filter ========================================
 
@@ -652,7 +702,7 @@ alert(check) */
 // document.write(`${b}  <br>`)
 
 // function check(age){
-// return age >= 18;
+// return age >= 8;
 // }
 
 
